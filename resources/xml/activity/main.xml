@@ -1,0 +1,95 @@
+<brls:AppletFrame
+    iconInterpolation="linear"
+    footerHidden="false">
+    <brls:TabFrame
+        title="@i18n/main/Title"
+        icon="@res/img/app_icon.png">
+
+        <brls:Separator />
+        
+        <brls:Tab label="@i18n/main/Tabs/editor">
+            <EditorTab />
+        </brls:Tab>
+
+        <brls:Separator />
+
+        <brls:Tab label="@i18n/main/Tabs/settings">
+            <SettingsTab />
+        </brls:Tab>
+
+        <!-- Static tab with inline XML -->
+        <brls:Tab label="@i18n/main/Tabs/about" >
+
+            <brls:Box
+                width="auto"
+                height="auto"
+                axis="column"
+                paddingTop="@style/about/padding_top_bottom"
+                paddingBottom="@style/about/padding_top_bottom"
+                paddingLeft="@style/about/padding_sides"
+                paddingRight="@style/about/padding_sides" >
+
+                <brls:Image
+                    width="auto"
+                    height="33%"
+                    image="@res/img/app_icon.png"
+                    marginBottom="@style/about/description_margin"/>
+
+                <brls:Box
+                    width="auto"
+                    height="auto"
+                    axis="row"
+                    marginBottom="@style/about/description_margin">
+
+                    <brls:Label
+                        width="40%"
+                        height="auto"
+                        text="@i18n/main/About/title"
+                        fontSize="36"
+                        horizontalAlign="right"
+                        verticalAlign="top" />
+
+                    <brls:Label
+                        width="auto"
+                        height="auto"
+                        text="@i18n/main/About/description"
+                        marginLeft="@style/about/description_margin" />
+
+                </brls:Box>
+
+                <brls:Box
+                    width="auto"
+                    height="auto"
+                    axis="column"
+                    alignItems="center"
+                    justifyContent="spaceEvenly"
+                    grow="1.0" >
+
+                    <brls:Label
+                        width="auto"
+                        height="auto"
+                        text="@i18n/main/About/github" />
+
+                    <brls:Label
+                        width="auto"
+                        height="auto"
+                        text="@i18n/main/About/licence" />
+
+                    <brls:Label
+                        width="auto"
+                        height="auto"
+                        text="@i18n/main/About/credits2"/>
+
+                    <brls:Label
+                        width="auto"
+                        height="auto"
+                        text="@i18n/main/About/credits3"/>
+
+                </brls:Box>
+
+            </brls:Box>
+
+        </brls:Tab>
+
+    </brls:TabFrame>
+</brls:AppletFrame>

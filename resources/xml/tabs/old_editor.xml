@@ -1,0 +1,363 @@
+<brls:Box
+    width="auto"
+    height="auto">
+
+    <brls:ScrollingFrame
+        width="auto"
+        height="auto"
+        axis="column"
+        alignItems="stretch"
+        grow="1.0" >
+        
+        <brls:Box
+            width="10000"
+            height="auto"
+            axis="column"
+            alignItems="stretch"
+            paddingTop="@style/brls/sidebar/padding_top"
+            paddingRight="@style/brls/sidebar/padding_right"
+            paddingBottom="@style/brls/sidebar/padding_bottom"
+            paddingLeft="@style/brls/sidebar/padding_left">
+            
+            <brls:Header
+                title= "SaveDataCmn" />
+
+            <brls:SelectorCell
+                id="inklingGender"/>
+            
+            <brls:InputNumericCell
+                id="inklingHairID"/>
+
+            <brls:InputNumericCell
+                id="inklingPantsID"/>
+
+            <brls:InputNumericCell
+                id="inklingEyeID"/>
+
+            <brls:InputNumericCell
+                id="eqshoes"/>
+
+            <brls:InputNumericCell
+                id="eqshirt"/>
+
+            <brls:InputNumericCell
+                id="hstick"/>
+
+            <brls:InputNumericCell
+                id="hmsense"/>
+
+            <brls:InputNumericCell
+                id="dssense"/>
+
+            <brls:InputNumericCell
+                id="dmsense"/>
+
+            <brls:InputNumericCell
+                id="money"/>
+
+            <brls:InputNumericCell
+                id="sseasnails"/>
+
+            <brls:InputNumericCell
+                id="ocgender"/>
+
+            <brls:InputNumericCell
+                id="ochair"/>
+
+            <brls:InputNumericCell
+                id="ocpants"/>
+
+            <brls:InputNumericCell
+                id="oceye"/>
+
+            <brls:InputNumericCell
+                id="isoc"/>
+
+            <brls:Header
+                title= "Equipped Weapon"
+                paddingTop="60"/>
+
+            <brls:InputNumericCell
+                id="mainWeapon"/>
+            
+            <brls:InputNumericCell
+                id="subWeapon"/>
+            
+            <brls:InputNumericCell
+                id="special"/>
+
+            <brls:InputNumericCell
+                id="inkTurfed"/>
+
+            <brls:Header
+                title="SaveDataVss"
+                paddingTop="60"/>
+
+            <brls:InputNumericCell
+                id="level"/>
+
+            <brls:InputNumericCell
+                id="exp"/>
+
+            <brls:InputNumericCell
+                id="starc"/>
+
+            <brls:InputNumericCell
+                id="rainmrank"/>
+
+            <brls:InputNumericCell
+                id="srank"/>
+            
+            <brls:InputNumericCell
+                id="trank"/>
+
+            <brls:InputNumericCell
+                id="crank"/>
+
+            <brls:Header
+                title= "MMR Data (Turf War)"
+                paddingTop="60"/>
+
+            <brls:InputNumericCell
+                id="mmrtfpw"/>
+
+            <brls:InputNumericCell
+                id="mmrtfrd"/>
+
+            <brls:InputNumericCell
+                id="mmrtfv"/>
+
+            <brls:Header
+                title= "MMR Data (Rainkmaker)"
+                paddingTop="60"/>
+
+            <brls:InputNumericCell
+                id="mmrrpw"/>
+
+            <brls:InputNumericCell
+                id="mmrrrd"/>
+
+            <brls:InputNumericCell
+                id="mmrrv"/>
+
+            <brls:Header
+                title= "MMR Data (Splat Zones)"
+                paddingTop="60"/>
+
+            <brls:InputNumericCell
+                id="mmrspw"/>
+
+            <brls:InputNumericCell
+                id="mmrsrc"/>
+
+            <brls:InputNumericCell
+                id="mmrsv"/>
+
+            <brls:Header
+                title= "MMR Data (Tower Control)"
+                paddingTop="60"/>
+
+            <brls:InputNumericCell
+                id="mmrtcw"/>
+
+            <brls:InputNumericCell
+                id="mmrtcd"/>
+
+            <brls:InputNumericCell
+                id="mmrtcv"/>
+
+            <brls:Header
+                title= "MMR Data (Clam blitz)"
+                paddingTop="60"/>
+
+            <brls:InputNumericCell
+                id="mmrcw"/>
+
+            <brls:InputNumericCell
+                id="mmrcd"/>
+
+            <brls:InputNumericCell
+                id="mmrcv"/>
+
+            <brls:Header
+                title= "Pair League Results"
+                paddingTop="60"/>
+
+            <brls:InputNumericCell
+                id="pltime"/>
+
+            <brls:InputCell
+                id="pl1nexuid"/>
+
+            <brls:InputNumericCell
+                id="pl1name"/>
+
+            <brls:InputNumericCell
+                id="pl2nexuid"/>
+            
+            <brls:InputCell
+                id="pl2name"/>
+
+            <brls:Header
+                title= "Rainmaker Results"
+                paddingTop="60"/>
+
+            <brls:InputNumericCell
+                id="mmr1power"/>
+            
+            <brls:InputNumericCell
+                id="mmr1rd"/>
+            
+            <brls:InputNumericCell
+                id="mmr1volatility"/>
+
+            <brls:Header
+                title= "Splat Zones Results"
+                paddingTop="60"/>
+
+            <brls:InputNumericCell
+                id="mmr2power"/>
+            
+            <brls:InputNumericCell
+                id="mmr2rd"/>
+            
+            <brls:InputNumericCell
+                id="mmr2volatility"/>
+
+            <brls:Header
+                title= "Tower Control Results"
+                paddingTop="60"/>
+
+            <brls:InputNumericCell
+                id="mmr3power"/>
+            
+            <brls:InputNumericCell
+                id="mmr3rd"/>
+            
+            <brls:InputNumericCell
+                id="mmr3volatility"/>
+
+            <brls:Header
+                title= "Clam Blitz Results"
+                paddingTop="60"/>
+
+            <brls:InputNumericCell
+                id="mmr4power"/>
+
+            <brls:InputNumericCell
+                id="mmr4rd"/>
+            
+            <brls:InputNumericCell
+                id="mmr4volatility"/>
+
+            <brls:Header
+                title="Team League Results"
+                paddingTop="60"/>
+
+            <brls:InputNumericCell
+                id="tltime"/>
+            
+            <brls:InputNumericCell
+                id="tlpl1nexuid"/>
+
+            <brls:InputCell
+                id="tlpl1name"/>
+
+            <brls:InputNumericCell
+                id="tlpl2nexuid"/>
+
+            <brls:InputCell
+                id="tlpl2name"/>
+            
+            <brls:InputNumericCell
+                id="tlpl3nexuid"/>
+            
+            <brls:InputCell
+                id="tlpl3name"/>
+            
+            <brls:InputNumericCell
+                id="tlpl4nexuid"/>
+            
+            <brls:InputCell
+                id="tlpl4name"/>
+            
+            <brls:InputNumericCell
+                id="tlmmr1power"/>
+            
+            <brls:InputNumericCell
+                id="tlmmr1rd"/>
+
+            <brls:InputNumericCell
+                id="tlmmr1volatility"/>
+
+            <brls:InputNumericCell
+                id="tlmmr5power"/>
+
+            <brls:InputNumericCell
+                id="tlmmr5rd"/>
+
+            <brls:InputNumericCell
+                id="tlmmr5volatility"/>
+
+            <brls:InputNumericCell
+                id="tlmmr3power"/>
+            
+            <brls:InputNumericCell
+                id="tlmmr3rd"/>
+
+            <brls:InputNumericCell
+                id="tlmmr3volatility"/>
+
+            <brls:InputNumericCell
+                id="tlmmr4power"/>
+
+            <brls:InputNumericCell
+                id="tlmmr4rd"/>
+
+            <brls:InputNumericCell
+                id="tlmmr4volatility"/>
+
+            <brls:InputNumericCell
+                id="tlclam1power"/>
+
+            <brls:InputNumericCell
+                id="tlclam1rd"/>
+            
+            <brls:InputNumericCell
+                id="tlclam1volatility"/>
+
+            <brls:Header
+                title= "NPCs"
+                paddingTop="60"/>
+            
+            <brls:InputCell
+                id="npcname"/>
+
+            <brls:InputNumericCell
+                id="npcgender"/>
+
+            <brls:InputNumericCell
+                id="npchairid"/>
+
+            <brls:InputNumericCell
+                id="npcskincolor"/>
+
+            <brls:InputNumericCell
+                id="npcEyescolorID"/>
+
+            <brls:Header
+                title= "Equipped Weapon"
+                paddingTop="60"/>
+
+            <brls:InputNumericCell
+                id="npcweaponmain"/>
+            
+            <brls:InputNumericCell
+                id="npcweaponsub1"/>
+            
+            
+        </brls:Box>
+
+    </brls:ScrollingFrame>
+
+</brls:Box>

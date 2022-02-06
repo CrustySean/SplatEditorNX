@@ -1,0 +1,61 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+splatsave
+*.exe
+*.out
+*.app
+
+# Switch
+build/
+*.elf
+*.nacp
+*.nro
+*.nso
+*.pfs0
+
+# Test files
+*.dat
+*.enc
+*.dec
+*.bak
+*.zip
+testsave/
+
+# MacOS files
+.DS_Store
+/*.txt
+/*.json
+
+# IDA files
+*.i64
+*.id0
+*.id1
+*.nam
+*.til

@@ -1,0 +1,19 @@
+name: Build
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: devkitpro/devkita64:latest
+
+    steps:
+    - uses: actions/checkout@v1
+
+    - name: Build
+      run: |
+        make -j$(nproc)
+    - uses: actions/upload-artifact@master
+      with:
+        name: splatsave.nro
+        path: splatsave.nro

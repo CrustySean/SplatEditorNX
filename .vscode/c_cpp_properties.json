@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "name": "NX",
+            "includePath": [
+                "/opt/devkitpro/devkitA64/aarch64-none-elf/include/**",
+                "/opt/devkitpro/libnx/include/**",
+                "/opt/devkitpro/portlibs/switch/include/**",
+                "${workspaceFolder}/source/**",
+                "${workspaceFolder}/include/**",
+                "${workspaceFolder}/libs/mbedtls/library/**",
+                "${workspaceFolder}/libs/json/include/**",
+                "${workspaceFolder}/libs/borealis/library/include/**",
+                "${workspaceFolder}/libs/mbedtls/include/**",
+                "${workspaceFolder}/libs/borealis/library/lib/extern/yoga/src",
+                "${workspaceFolder}/libs/borealis/library/lib/extern/tweeny/include",
+                "${workspaceFolder}/libs/borealis/library/lib/extern/fmt/include"
+            ],
+            "defines": [
+                "SWITCH",
+                "__SWITCH__",
+                "BOREALIS_RESOURCES",
+                "__DEBUG__",
+                "__aarch64__"
+            ],
+            "compilerPath": "/opt/devkitpro/devkitA64/bin/aarch64-none-elf-g++",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}

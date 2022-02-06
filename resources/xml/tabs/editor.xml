@@ -1,0 +1,186 @@
+<brls:Box
+    width="auto"
+    height="auto">
+
+    <brls:ScrollingFrame
+        width="auto"
+        height="auto"
+        axis="column"
+        alignItems="stretch"
+        grow="1.0" >
+        
+        <brls:Box
+            width="10000"
+            height="auto"
+            axis="column"
+            alignItems="stretch"
+            paddingTop="@style/brls/sidebar/padding_top"
+            paddingRight="@style/brls/sidebar/padding_right"
+            paddingBottom="@style/brls/sidebar/padding_bottom"
+            paddingLeft="@style/brls/sidebar/padding_left">
+            
+            <brls:Header
+                title= "SaveDataCmn" />
+
+            <brls:SelectorCell
+                id="inklingGender"/>
+            
+            <brls:InputNumericCell
+                id="inklingHairID"/>
+
+            <brls:InputNumericCell
+                id="inklingPantsID"/>
+
+            <brls:InputNumericCell
+                id="inklingEyeID"/>
+
+            <brls:InputNumericCell
+                id="eqshoes"/>
+
+            <brls:InputNumericCell
+                id="eqshirt"/>
+
+            <brls:InputNumericCell
+                id="hstick"/>
+
+            <brls:InputNumericCell
+                id="hmsense"/>
+
+            <brls:InputNumericCell
+                id="dssense"/>
+
+            <brls:InputNumericCell
+                id="dmsense"/>
+
+            <brls:InputNumericCell
+                id="money"/>
+
+            <brls:InputNumericCell
+                id="sseasnails"/>
+
+            <brls:InputNumericCell
+                id="ocgender"/>
+
+            <brls:InputNumericCell
+                id="ochair"/>
+
+            <brls:InputNumericCell
+                id="ocpants"/>
+
+            <brls:InputNumericCell
+                id="oceye"/>
+
+            <brls:InputNumericCell
+                id="isoc"/>
+
+            <brls:Header
+                title= "Equipped Weapon"
+                paddingTop="60"/>
+
+            <brls:InputNumericCell
+                id="mainWeapon"/>
+            
+            <brls:InputNumericCell
+                id="subWeapon"/>
+            
+            <brls:InputNumericCell
+                id="special"/>
+
+            <brls:InputNumericCell
+                id="inkTurfed"/>
+
+            <brls:Header
+                title="SaveDataVss"
+                paddingTop="60"/>
+
+            <brls:InputNumericCell
+                id="level"/>
+
+            <brls:InputNumericCell
+                id="exp"/>
+
+            <brls:InputNumericCell
+                id="starc"/>
+
+            <brls:InputNumericCell
+                id="rainmrank"/>
+
+            <brls:InputNumericCell
+                id="srank"/>
+            
+            <brls:InputNumericCell
+                id="trank"/>
+
+            <brls:InputNumericCell
+                id="crank"/>
+
+            <brls:Header
+                title= "MMR Data (Turf War)"
+                paddingTop="60"/>
+
+            <brls:InputNumericCell
+                id="mmrtfpw"/>
+
+            <brls:InputNumericCell
+                id="mmrtfrd"/>
+
+            <brls:InputNumericCell
+                id="mmrtfv"/>
+
+            <brls:Header
+                title= "MMR Data (Rainkmaker)"
+                paddingTop="60"/>
+
+            <brls:InputNumericCell
+                id="mmrrpw"/>
+
+            <brls:InputNumericCell
+                id="mmrrrd"/>
+
+            <brls:InputNumericCell
+                id="mmrrv"/>
+
+            <brls:Header
+                title= "MMR Data (Splat Zones)"
+                paddingTop="60"/>
+
+            <brls:InputNumericCell
+                id="mmrspw"/>
+
+            <brls:InputNumericCell
+                id="mmrsrc"/>
+
+            <brls:InputNumericCell
+                id="mmrsv"/>
+
+            <brls:Header
+                title= "MMR Data (Tower Control)"
+                paddingTop="60"/>
+
+            <brls:InputNumericCell
+                id="mmrtcw"/>
+
+            <brls:InputNumericCell
+                id="mmrtcd"/>
+
+            <brls:InputNumericCell
+                id="mmrtcv"/>
+
+            <brls:Header
+                title= "MMR Data (Clam blitz)"
+                paddingTop="60"/>
+
+            <brls:InputNumericCell
+                id="mmrcw"/>
+
+            <brls:InputNumericCell
+                id="mmrcd"/>
+
+            <brls:InputNumericCell
+                id="mmrcv"/>
+            
+        </brls:Box>
+
+    </brls:ScrollingFrame>
+
+</brls:Box>

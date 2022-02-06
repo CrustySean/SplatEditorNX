@@ -1,0 +1,53 @@
+<brls:Box
+    width="175"
+    height="175"
+    axis="column"
+    alignItems="stretch"
+    focusable="true">
+
+    <brls:Image
+        id="image"
+        width="auto"
+        height="auto"
+        grow="1"
+        scalingType="fit"/>
+
+    <brls:Box
+        detachedX="0"
+        detachedY="0"
+        width="142"
+        height="200"
+        axis="column"
+        direction="rightToLeft"
+        justifyContent="flexStart"
+        alignItems="stretch">
+    </brls:Box>
+
+    <brls:Box
+        detachedX="0"
+        detachedY="0"
+        width="175"
+        height="135"
+        axis="column"
+        justifyContent="flexEnd">
+
+        <brls:Box
+            width="auto"
+            height="auto"
+            axis="column"
+            justifyContent="center"
+            backgroundColor="@theme/brls/backdrop"
+            padding="10">
+
+            <brls:Label
+                id="title"
+                width="auto"
+                height="auto"
+                horizontalAlign="center"
+                fontSize="12"/>
+
+        </brls:Box>
+
+    </brls:Box>
+
+</brls:Box>

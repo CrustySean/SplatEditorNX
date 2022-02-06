@@ -1,0 +1,116 @@
+{
+    "Title": "SplatEditor",
+
+    "Tabs": {
+        "editor": "Editor",
+        "settings": "Settings",
+        "about": "About",
+        "romtype": "Romtype"
+    },
+
+    "Options" : {
+        "yes" : "Yes",
+        "no" : "No"
+    },
+
+    "Dialog" : {
+        "save": "Would you like to save changes?",
+        "done_file" : "Done! Successfully saved the file",
+        "inject" : "Would you really like to inject changes?",
+        "done_inject" : "Done! Successfully injected the file",
+        "download" : "Do you really want to download all icons?\nThis may take a while, please be patient!",
+        "cpsave" : "Copying save..."
+    },
+
+    "About": {
+        "title": "SplatEditor",
+        "description": "Splatoon 2 Save Data Editor",
+        "github": "Find it on github.com/CrustySean/SplatEditorNX",
+        "licence": "License: GPL-3.0",
+        "credits2": "A special thanks to the following people:",
+        "credits3": "3096, Khangaroo, Shadów, Xitrix, Natinusala, Lean"
+    },
+
+    "SaveDataCmn" : {
+        "gender" : "Inkling Gender",
+        "hair" : "Inkling Hair ID",
+        "pants" : "Inkling Pants ID",
+        "eyes" : "Inkling Eyes Color ID",
+        "weapon" : "Main Weapon ID",
+        "subweapon" : "Sub Weapon ID",
+        "weaponspecial" : "Special ID",
+        "inkturfed" : "Ink Turfed",
+        "shoes" : "Equipped Shoes",
+        "shirt" : "Equipped Shirt",
+        "handsticksense" : "Handheld Stick Sensitivity",
+        "handmotionsense" : "Handheld Motion Sensitivity",
+        "desticksense" : "Detached Stick Sensitivity",
+        "demotionsense" : "Detached Motion Sensitivity",
+        "money" : "Money",
+        "seasnails" : "Super Sea Snails",
+        "octogender" : "Octoling Gender",
+        "octohair" : "Octoling Hair ID",
+        "octopants" : "Octoling Pants ID",
+        "octoeyes" : "Octoling Eyes Color ID",
+        "octoling": "Is Octoling"
+    },
+    
+    "SaveDataVss" : {
+        "level": "Level",
+        "experience" : "Experience",
+        "starcount" : "Star Count",
+        "rainmrank" : "Rainmaker Rank",
+        "splatzrank" : "Splat Zones Rank",
+        "tcontrolrank" : "Tower Control Rank",
+        "cblitzrank" : "Clam Blitz Rank"
+    },
+
+    "MMR" : {
+        "power" : "Power",
+        "rdeviation" : "Rating Deviation",
+        "volatility" : "Volatility",
+
+        "time" : "Time",
+        "pl1nexuid" : "Player 1 NEX UID",
+        "pl1name" : "Player 1 Name",
+        "pl2nexuid" : "Player 2 NEX UID",
+        "pl2name" : "Player 2 Name",
+        "pl3nexuid" : "Player 3 NEX UID",
+        "pl3name" : "Player 3 Name",
+        "pl4nexuid" : "Player 4 NEX UID",
+        "pl4name" : "Player 4 Name"
+    },
+
+    "NPCs" : {
+        "name" : "Name",
+        "gender" : "Gender ID",
+        "hair" : "Hair ID",
+        "skincolor" : "Skin Color ID",
+        "eyescolor" : "Eyes Color ID",
+        "weapon" : "Main Weapon",
+        "subweapon" : "Sub Weapon"
+    },
+
+    "Erros": {
+        "fail_to_open" : "Could not open {0}",
+        "save_ver_6" : "Save version 6 was never seen before. If your save was previously unmodified, please submit an issue on the project's GitHub page",
+        "fail_file_size" : "Save size incorrect: {0}",
+        "unsupported_ver" : "Save version {0} is not supported",
+        "fail_to_verify_save" : "Cannot verify save. If you believe this is a mistake, and your save is intact, please submit an issue on the project's GitHub page",
+        "failed_to_open_any" : "Failed to open file",
+        "nosavedatafound" : "Failed to open save data, due to {0}",
+        "exceptionDialog" : "Exception: {0}",
+        "invalidUid" : "Invalid account uid"
+    },
+
+    "Settings" : {
+        "log" : "Show debug /info/errors logs directly in app",
+        "wireframe" : "Show a wireframe into the current tab",
+        "forceromtype" : "Force the romtype screen show up everytime you open the app",
+        "saveinject" : "Inject Save",
+        "dbglogs" : "Show debug logs",
+        "dbgwframe" : "Show debug wireframe",
+        "downloadicons" : "Download all icons",
+        "romtype" : "Force rom type view"
+    }
+}
