@@ -91,7 +91,9 @@ if you need any internal id, just take a look at the [docs](https://github.com/C
 
 (if you need any help, please either join in my discord server or report an issue trough GitHub)
 
-<img src="https://discordapp.com/api/guilds/725677288900919337/widget.png?style=banner2" alt="Discord Banner 2"/>
+<a href="https://discord.gg/2gjrSsP">
+  <img alt="Discord Banner 2" src="https://discordapp.com/api/guilds/725677288900919337/widget.png?style=banner2">
+</a>
 
 
 I'd like to thanks these awesome people for the help they provided during the development:

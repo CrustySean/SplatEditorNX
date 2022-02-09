@@ -47,7 +47,7 @@ EditorTab::EditorTab()
             );
 
             std::string tempimgpath = g_defaultPath + "/Cache/test.png";
-            S_CREATEEDITORITEM(inklingHairID, "main/SaveDataCmn/hair"_i18n, save_file->SaveDataCmn.inklingPlayerHairId, save_file, SaveDataCmn.inklingPlayerHairId, "", 1, tempimgpath);
+            S_CREATEEDITORITEM(inklingHairID, "main/SaveDataCmn/hair"_i18n, save_file->SaveDataCmn.inklingPlayerHairId, save_file, SaveDataCmn.inklingPlayerHairId, "", 2, tempimgpath);
             S_CREATEEDITORITEM(inklingPantsID, "main/SaveDataCmn/pants"_i18n, save_file->SaveDataCmn.inklingPlayerSkinColorId, save_file, SaveDataCmn.inklingPlayerSkinColorId, "", 1, tempimgpath);
             S_CREATEEDITORITEM(inklingEyeID, "main/SaveDataCmn/eyes"_i18n, save_file->SaveDataCmn.inklingPlayerEyeColorId, save_file, SaveDataCmn.inklingPlayerEyeColorId, "", 1, tempimgpath);
             //equipped weapon
@@ -65,7 +65,7 @@ EditorTab::EditorTab()
             S_CREATEEDITORITEM(money, "main/SaveDataCmn/money"_i18n, save_file->SaveDataCmn.money, save_file, SaveDataCmn.money, "", 9999999, "sdmc:/SplatEditor/Cache/money.png");
             S_CREATEEDITORITEM(sseasnails, "main/SaveDataCmn/seasnails"_i18n, save_file->SaveDataCmn.seaSnails, save_file, SaveDataCmn.seaSnails, "", 999, "sdmc:/SplatEditor/Cache/sseasnails.png");   
             S_CREATEEDITORITEM(ocgender, "main/SaveDataCmn/octogender"_i18n, save_file->SaveDataCmn.octolingPlayerModelType, save_file, SaveDataCmn.octolingPlayerModelType, "", 1, tempimgpath);
-            S_CREATEEDITORITEM(ochair, "main/SaveDataCmn/octohair"_i18n, save_file->SaveDataCmn.octolingPlayerHairId, save_file, SaveDataCmn.octolingPlayerHairId, "", 1, tempimgpath);
+            S_CREATEEDITORITEM(ochair, "main/SaveDataCmn/octohair"_i18n, save_file->SaveDataCmn.octolingPlayerHairId, save_file, SaveDataCmn.octolingPlayerHairId, "", 2, tempimgpath);
             S_CREATEEDITORITEM(ocpants, "main/SaveDataCmn/octopants"_i18n, save_file->SaveDataCmn.octolingPlayerSkinColorId, save_file, SaveDataCmn.octolingPlayerSkinColorId, "", 1, tempimgpath);
             S_CREATEEDITORITEM(oceye, "main/SaveDataCmn/octoeyes"_i18n, save_file->SaveDataCmn.octolingPlayerEyeColorId, save_file, SaveDataCmn.octolingPlayerEyeColorId, "", 1, tempimgpath);
             S_CREATEEDITORITEM(isoc, "main/SaveDataCmn/octoling"_i18n, save_file->SaveDataCmn.isOctoling, save_file, SaveDataCmn.isOctoling, "", 1, tempimgpath);
