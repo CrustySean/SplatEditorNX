@@ -33,7 +33,7 @@ include $(DEVKITPRO)/libnx/switch_rules
 TARGET				:=	splatsave
 APP_TITLE 			:= 	SplatEditorNX
 APP_AUTHOR 			:= 	CrustySeanPro & 3096
-APP_VERSION			:= 	1.0.0
+APP_VERSION			:= 	1.0.1
 BUILD				:=	build
 SOURCES				:=	source libs/mbedtls/library source/core source/splat source/UI 
 DATA				:=	data

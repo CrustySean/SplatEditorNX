@@ -48,16 +48,16 @@ EditorTab::EditorTab()
 
             std::string tempimgpath = g_defaultPath + "/Cache/test.png";
             S_CREATEEDITORITEM(inklingHairID, "main/SaveDataCmn/hair"_i18n, save_file->SaveDataCmn.inklingPlayerHairId, save_file, SaveDataCmn.inklingPlayerHairId, "", 2, tempimgpath);
-            S_CREATEEDITORITEM(inklingPantsID, "main/SaveDataCmn/pants"_i18n, save_file->SaveDataCmn.inklingPlayerSkinColorId, save_file, SaveDataCmn.inklingPlayerSkinColorId, "", 1, tempimgpath);
-            S_CREATEEDITORITEM(inklingEyeID, "main/SaveDataCmn/eyes"_i18n, save_file->SaveDataCmn.inklingPlayerEyeColorId, save_file, SaveDataCmn.inklingPlayerEyeColorId, "", 1, tempimgpath);
+            S_CREATEEDITORITEM(inklingPantsID, "main/SaveDataCmn/pants"_i18n, save_file->SaveDataCmn.inklingPlayerSkinColorId, save_file, SaveDataCmn.inklingPlayerSkinColorId, "", 2, tempimgpath);
+            S_CREATEEDITORITEM(inklingEyeID, "main/SaveDataCmn/eyes"_i18n, save_file->SaveDataCmn.inklingPlayerEyeColorId, save_file, SaveDataCmn.inklingPlayerEyeColorId, "", 2, tempimgpath);
             //equipped weapon
             //header MainWeapon
-            S_CREATEWEAPON(mainWeapon, "main/SaveDataCmn/weapon"_i18n, save_file->SaveDataCmn.equippedWeapon.Main, save_file, SaveDataCmn.equippedWeapon.Main, "", 9999);
-            S_CREATESUB(subWeapon, "main/SaveDataCmn/subweapon"_i18n, save_file->SaveDataCmn.equippedWeapon.Sub, save_file, SaveDataCmn.equippedWeapon.Sub, "", 1);
-            S_CREATESPECIALS(special, "main/SaveDataCmn/weaponspecial"_i18n, save_file->SaveDataCmn.equippedWeapon.Special, save_file, SaveDataCmn.equippedWeapon.Special, "", 1);
+            S_CREATEWEAPON(mainWeapon, "main/SaveDataCmn/weapon"_i18n, save_file->SaveDataCmn.equippedWeapon.Main, save_file, SaveDataCmn.equippedWeapon.Main, "", 29001);
+            S_CREATESUB(subWeapon, "main/SaveDataCmn/subweapon"_i18n, save_file->SaveDataCmn.equippedWeapon.Sub, save_file, SaveDataCmn.equippedWeapon.Sub, "", 12);
+            S_CREATESPECIALS(special, "main/SaveDataCmn/weaponspecial"_i18n, save_file->SaveDataCmn.equippedWeapon.Special, save_file, SaveDataCmn.equippedWeapon.Special, "", 2); // not sure
             S_CREATEEDITORITEM(inkTurfed, "main/SaveDataCmn/inkturfed"_i18n, save_file->SaveDataCmn.equippedWeapon.InkTurfed, save_file, SaveDataCmn.equippedWeapon.InkTurfed, "", 9999, tempimgpath); // not sure about 9999  
-            S_CREATESHOES(eqshoes, "main/SaveDataCmn/shoes"_i18n, save_file->SaveDataCmn.equippedShoesId, save_file, SaveDataCmn.equippedShoesId, "", 1);
-            S_CREATECLOTHES(eqshirt, "main/SaveDataCmn/shirt"_i18n, save_file->SaveDataCmn.equippedClothesId, save_file, SaveDataCmn.equippedClothesId, "", 1);
+            S_CREATESHOES(eqshoes, "main/SaveDataCmn/shoes"_i18n, save_file->SaveDataCmn.equippedShoesId, save_file, SaveDataCmn.equippedShoesId, "", 27106);
+            S_CREATECLOTHES(eqshirt, "main/SaveDataCmn/shirt"_i18n, save_file->SaveDataCmn.equippedClothesId, save_file, SaveDataCmn.equippedClothesId, "", 27106);
             S_CREATEEDITORITEM_UNKNOWN(hstick, "main/SaveDataCmn/handsticksense"_i18n, save_file->SaveDataCmn.handheldStickSensitivity, save_file, SaveDataCmn.handheldStickSensitivity, "", 1); // %1f?
             S_CREATEEDITORITEM_UNKNOWN(hmsense, "main/SaveDataCmn/handmotionsense"_i18n, save_file->SaveDataCmn.handheldMotionSensitivity, save_file, SaveDataCmn.handheldMotionSensitivity, "", 1); // %1f?
             S_CREATEEDITORITEM_UNKNOWN(dssense, "main/SaveDataCmn/desticksense"_i18n, save_file->SaveDataCmn.detachedStickSensitivity, save_file, SaveDataCmn.detachedStickSensitivity, "", 1); // %1f?
@@ -65,7 +65,7 @@ EditorTab::EditorTab()
             S_CREATEEDITORITEM(money, "main/SaveDataCmn/money"_i18n, save_file->SaveDataCmn.money, save_file, SaveDataCmn.money, "", 9999999, "sdmc:/SplatEditor/Cache/money.png");
             S_CREATEEDITORITEM(sseasnails, "main/SaveDataCmn/seasnails"_i18n, save_file->SaveDataCmn.seaSnails, save_file, SaveDataCmn.seaSnails, "", 999, "sdmc:/SplatEditor/Cache/sseasnails.png");   
             S_CREATEEDITORITEM(ocgender, "main/SaveDataCmn/octogender"_i18n, save_file->SaveDataCmn.octolingPlayerModelType, save_file, SaveDataCmn.octolingPlayerModelType, "", 1, tempimgpath);
-            S_CREATEEDITORITEM(ochair, "main/SaveDataCmn/octohair"_i18n, save_file->SaveDataCmn.octolingPlayerHairId, save_file, SaveDataCmn.octolingPlayerHairId, "", 2, tempimgpath);
+            S_CREATEEDITORITEM(ochair, "main/SaveDataCmn/octohair"_i18n, save_file->SaveDataCmn.octolingPlayerHairId, save_file, SaveDataCmn.octolingPlayerHairId, "", 2,  tempimgpath);
             S_CREATEEDITORITEM(ocpants, "main/SaveDataCmn/octopants"_i18n, save_file->SaveDataCmn.octolingPlayerSkinColorId, save_file, SaveDataCmn.octolingPlayerSkinColorId, "", 1, tempimgpath);
             S_CREATEEDITORITEM(oceye, "main/SaveDataCmn/octoeyes"_i18n, save_file->SaveDataCmn.octolingPlayerEyeColorId, save_file, SaveDataCmn.octolingPlayerEyeColorId, "", 1, tempimgpath);
             S_CREATEEDITORITEM(isoc, "main/SaveDataCmn/octoling"_i18n, save_file->SaveDataCmn.isOctoling, save_file, SaveDataCmn.isOctoling, "", 1, tempimgpath);
